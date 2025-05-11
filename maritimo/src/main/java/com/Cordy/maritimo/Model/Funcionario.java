@@ -1,14 +1,16 @@
 package com.Cordy.maritimo.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+//Clase auxiliar
+
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
-@Entity
-@Table(name = "barco")
 @NoArgsConstructor
 @AllArgsConstructor
-public class Barco {
-    
+public class Funcionario {
+
+    private String codFuncinario;
+    private String nombre;
+
+
 }
