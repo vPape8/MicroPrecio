@@ -11,6 +11,8 @@ public class Funcionario {
 
     private String codFuncinario;
     private String nombre;
+    private String rol;
+    private String correo;
 
 
 }
