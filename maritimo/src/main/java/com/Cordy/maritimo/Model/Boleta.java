@@ -25,5 +25,4 @@ public class Boleta {
     @Column(name="id_funcinoario")
     private String id_funcionario;
 
-
 }
